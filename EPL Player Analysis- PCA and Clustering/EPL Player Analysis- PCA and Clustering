@@ -1,0 +1,33 @@
+EPL Player Analysis- PCA and Clustering
+
+1. 데이터 출처
+: Kaggle에서 17/18 시즌의 EPL 선수들의 데이터 셋을 활용(https://www.kaggle.com/datasets/mauryashubham/english-premier-league-players-dataset)
+
+2. 데이터 설명
+: 17 / 18 시즌 EPL 선수들의 시장 가치
+
+3. 데이터 변수
+- name: 선수 이름
+- club: 선수가 속한 클럽
+- age: 선수의 나이
+- position: 선수 플레이 위치
+- position_cat: 선수 위치 범주화 (1 공격수, 2 중앙미드필더, 3 수비수, 4 골키퍼)
+- market_value: 선수 이적 시장 가치
+- page_views: 평균 일일 위키백과 페이지 조회수
+- fpl_value: Fantasy 프리미어 리그 선수 가치
+- fpl_sel: Fantasy 프리미어 리그 선수의 백분율
+- fpl_points: 이전 시즌 동안 Fantasy 프리미어 리그 포인트
+- region:선수의 지역 범주화(1 잉글랜드, 2는 EU, 3 아메리카, 4 기타)
+- nationality: 선수의 국적
+- new_foreign: 신규 선수 여부
+- age_cat: 선수의 연령 범주화
+- club_id: 클럽 식별용
+- big_club: TOP 6 속하는지 여부
+- new_signing: 신규 선수로 등록되어있는지 여부
+
+4. 변수 유형
+: PCA를 수행하기 위해 선수이름을 행이름으로 변경하여 461 rows X 16 columns
+
+
+
+ 
